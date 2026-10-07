@@ -1,0 +1,21 @@
+# Crear o agregar al .gitignore
+cat << 'EOF' >> .gitignore
+# Entornos virtuales
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Archivos de datos pesados (NO subir a GitHub)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+
+# Archivos de configuración de IDEs y Jupyter
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+EOF

@@ -1,0 +1,44 @@
+# ==============================================================================
+# Mexico City Urban Intelligence Geospatial Data Warehouse
+# Dependencies & Requirements
+# ==============================================================================
+
+# --- Core Data Science & Numerical Computing ---
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+networkx==3.7
+quantecon==0.12.0
+
+# --- Geospatial Analysis & GIS ---
+geopandas==1.2.0
+shapely==2.2.0
+pyproj==3.8.0
+pyogrio==0.13.0
+libpysal==4.15.0
+esda==2.10.0
+splot==1.1.7
+spreg==1.9.1
+giddy==2.3.9
+mapclassify==2.11.0
+
+# --- Database & Spatial SQL ---
+SQLAlchemy==2.1.3
+GeoAlchemy2==0.20.0
+psycopg2-binary==2.9.13
+
+# --- Data Visualization ---
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# --- Web Requests & Scraping ---
+requests==2.34.2
+beautifulsoup4==4.15.0
+
+# --- Interactive Computing & Jupyter Kernel ---
+ipykernel==7.4.0
+ipython==9.17.1
+
+# --- Platform-specific Dependencies ---
+appnope==1.0.0; sys_platform == "darwin"\n
