@@ -8,8 +8,10 @@ __pycache__/
 *.pyc
 
 # Archivos de datos pesados (NO subir a GitHub)
-data/raw/
-data/processed/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
 *.zip
 *.tar.gz
 
