@@ -22,6 +22,7 @@ splot==1.1.7
 spreg==1.9.1
 giddy==2.3.9
 mapclassify==2.11.0
+pyarrow==26.0.0
 
 # --- Database & Spatial SQL ---
 SQLAlchemy==2.1.3
